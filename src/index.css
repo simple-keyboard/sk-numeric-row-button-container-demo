@@ -1,0 +1,55 @@
+input {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.simple-keyboard.numeric-theme {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.simple-keyboard.numeric-theme .hg-button {
+  width: 25%;
+  height: 30px;
+}
+
+.simple-keyboard .hg-row .hg-button-container {
+  display: flex;
+  flex-flow: wrap;
+  width: 75%;
+}
+
+.simple-keyboard.numeric-theme .hg-button {
+  height: 55px;
+}
+
+.simple-keyboard.numeric-theme .hg-button.hg-standardBtn {
+  max-width: 55px;
+}
+
+.simple-keyboard.numeric-theme .hg-button.hg-button-bksp {
+  background: lightgray;
+}
+
+.simple-keyboard.numeric-theme .hg-button.hg-button-enter {
+  height: auto;
+  background: #39b54a;
+  color: white;
+  font-size: 30px;
+}
+
+.simple-keyboard .hg-row .hg-button-container .hg-button:nth-child(3n) {
+  margin-right: 0;
+}
+
+.simple-keyboard .hg-row .hg-button-container .hg-button:nth-child(n + 4) {
+  margin-top: 5px;
+}
+
+/* .simple-keyboard.numeric-theme .hg-row:not(:last-child) {
+  margin-bottom: 10px;
+} */
